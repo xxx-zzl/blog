@@ -1,0 +1,26 @@
+<div class="ladytop">
+            <div class="nav">
+                <div class="left"><a href=""><img src="__PUBLIC__/images
+/hunshang.png" alt="wed114婚尚"></a></div>
+                <div class="right">
+                    <div class="box">
+                    <a href="{:url('index/index')}"  rel='dropmenu209'>首页</a> 
+                     {volist name="cateres" id="vo"}
+                        <a href="{:url('cate/index',array('cateid'=>$vo['id']))}"  rel='dropmenu209'>{$vo.catename}</a> 
+                     {/volist}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="hotmenu">
+	<div class="con">热门标签：
+    <a href="https://github.com/xxx-zzl" target="_blank" style="color:#f00;">github</a>
+    <!-- {volist name="tagres" id="vo"} -->
+    <!-- <a href='http://127.0.0.1/tp5/public/index.php/index/search/index?keywords={$vo.tagname}'>{$vo.tagname}</a> -->
+    <!-- {/volist} -->
+    <a href="http://192.168.192.129:8080/" target="_blank" style="color:#1900ff;">下载</a>
+    <a href="https://space.bilibili.com/269766370" target="_blank" style="color:#1900ff;">bilibili</a>
+    <a href="https://pan.baidu.com/s/1yzl4TULgYlqzOZISy8ZOHw" target="_blank" style="color:#1900ff;">百度网盘;提取码:7rz2</a>
+    </div>
+</div>
