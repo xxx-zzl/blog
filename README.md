@@ -22,4 +22,16 @@
       think            文件
       README.md        自述文档
       LICENSE.txt      文本文档
-2.引入模板   
+2.分离模板
+      前台写3个通用模板  头  尾  右
+3.连接数据库    
+   创建数据库
+   数据库名   blog
+   字符集     utf8
+   排序规则   utf8_general_ci
+   
+   创建数据表
+   表1  tp_admin    id(主键)   username  password
+   表2  tp_article  id(主键)   title     author    desc   keywords    content     pic    click     state(bull)  time   cateid
+   表3  tp_cate     id(主键)   catename
+   
