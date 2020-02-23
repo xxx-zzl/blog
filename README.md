@@ -1,4 +1,4 @@
-# blog
+# blog 
 # my  blog
 # 环境 PHP环境 apache  ， MySQL 
 # public/index   "192.168.192.129"自改
@@ -23,7 +23,7 @@
       README.md        自述文档
       LICENSE.txt      文本文档
 2.分离模板
-      前台写3个通用模板  头  尾  右
+      前台写3个通用模板  头  尾  右     后台写两个模板  头  左
 3.连接数据库    
    创建数据库
    数据库名   blog
@@ -34,4 +34,11 @@
    表1  tp_admin    id(主键)   username  password
    表2  tp_article  id(主键)   title     author    desc   keywords    content     pic    click     state(bull)  time   cateid
    表3  tp_cate     id(主键)   catename
-   
+4.管理员后台登陆
+    调用admin模块   输入用户名  密码  和数据库进行比对   访问控制登录后台  登陆入口  admin/login.html
+5.栏目添加及唯一验证           //栏目名写入数据库   并进行查重
+6.文章添加  导入UEditor插件    //添加文章导入数据库  
+
+    
+    
+    
